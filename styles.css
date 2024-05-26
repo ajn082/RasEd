@@ -271,9 +271,11 @@ footer {
     }
 
     .landing h2 {
-        margin: 100px;
-        padding-left: 350px;
-        font-size: 1rem;
+        margin: 0px;
+        padding-left: 450px;
+        padding-top: 0px;
+        font-size: 1.5rem;
+        line-height: 50px;
     }
 
     .slider-wrapper {
