@@ -43,7 +43,7 @@ nav ul li a {
     text-decoration: none;
     padding: 10px;
     background-color: #729DB5;
-    background-image: #729DB5
+    background-image: #729DB5;
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -67,9 +67,9 @@ nav ul li a:hover {
 
 main {
     padding: 20px;
-    display: flex:
+    display: flex;
     fl: wrap;
-    justify-content: center
+    justify-content: center;
 }
 
 footer {
@@ -152,7 +152,7 @@ footer {
 
 .slider-wrapper {
     position: relative;
-    max-width: 48rem;
+    max-width: 1500px;
     margin: 0 auto;
 }
 
