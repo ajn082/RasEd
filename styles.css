@@ -139,6 +139,7 @@ footer {
     margin-left: 300px;
     margin-right: 300px;
     font-size: 2rem;
+    line-height: 50px;
 }
 
 .container {
@@ -275,7 +276,6 @@ footer {
         padding-left: 450px;
         padding-top: 0px;
         font-size: 1.5rem;
-        line-height: 50px;
     }
 
     .slider-wrapper {
