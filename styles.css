@@ -43,7 +43,6 @@ nav ul li a {
     text-decoration: none;
     padding: 10px;
     background-color: #729DB5;
-    background-image: #729DB5;
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -132,11 +131,7 @@ footer {
 .landing h1{
     font-size: 5rem
 }
-#landing h1{
-    align-self: center;
-    font-size: 5rem;
-    flex-direction: column;
-}
+
 .landing h2 {
     text-align:center justify;
     color:#729DB5;
@@ -200,7 +195,7 @@ footer {
     width: 30rem; /* Card width */
     padding: 20px; /* Padding inside card */
     margin: 20px; /* Margin between cards */
-    background-color: #2b414f; /* Card background color */
+    background-color: #2b414fef; /* Card background color */
     border-radius: 10px; /* Card border radius */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow */
     display: inline-block;
@@ -209,7 +204,7 @@ footer {
 }
 
 
-.btn{
+.btn-stem{
     color: black;
     text-decoration: none;
     padding-left: 6rem;
@@ -229,8 +224,67 @@ footer {
 
 }
 
-.btn:hover {
-    background-color: #2B414F; /* Change background color on hover */
-    filter: invert(50%); /* Invert colors on hover */
+.btn-stem:hover {
+    background-color: #447F9C; /* Change background color on hover */
+}
+
+.btn-more{
+    color: white;
+    text-decoration: none;
+    padding-left: 6rem;
+    padding-top: 10px;
+    background-color: #151414;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: flex;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: 700;
+    transition: filter 0.3s; /* Smooth transition for filter effect */
+
+}
+
+@media screen and (max-width: 768px) {
+    nav ul li a {
+        padding: 0px;
+        font-size: 1.1rem;
+    }
+
+    .landing h1{
+        font-size: 2.5rem;
+        line-height: 100px;
+        padding-left: 75px;
+    }
+
+    .logo {
+        width: 101px;
+    }
+
+    .logo img {
+        margin: 0px;
+        width: 101px; /* Adjust the width as needed */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .landing h2 {
+        margin: 100px;
+        padding-left: 350px;
+        font-size: 1rem;
+    }
+
+    .slider-wrapper {
+        position: relative;
+        max-width: 700px;
+        margin: 0 auto;
+        padding-left: 400px;
+    }
+
+    .slider-nav {
+        transform: translateX(75%);
+    }
 }
 
